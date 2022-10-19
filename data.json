@@ -1,0 +1,29 @@
+ 
+ 
+{
+    "Item1": {
+        "name":"Watch type 1",
+        "description":"The classic ThermoSecurity watch helps you link with your house at all times and check the status.",
+        "price": "89$",
+        "Image":"watch1.jpg"
+    },
+    "Item2": {
+        "name":"Watch type 2",
+        "description":"The new ThermoSecurity watch with added waterproof function can better accompany your life.",
+        "price": "71$",
+        "Image":"watch2.jpg"
+    },
+ 
+    "Item3": {
+        "name":"Laptop",
+        "description":"The computer remotely tracks the home security environment, giving you more peace of mind.",
+        "price": "49$",
+        "Image":"phone.jpg"
+    },
+    "Item4": {
+        "name":"Phone",
+        "description":"Use the mobile phone to check the house status, making the control more convenient and fast.",
+        "price": "61$",
+        "Image":"laptop.jpg"
+    },
+  }
