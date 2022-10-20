@@ -1,0 +1,2 @@
+SELECT product_name, price_number, img_jpg, desc_info FROM tbl_product, tbl_price, tbl_img, tbl_desc
+WHERE tbl_product.price_id = tbl_price.price_id AND tbl_product.img_id = tbl_img.img_id AND tbl_product.desc_id = tbl_desc.desc_id
