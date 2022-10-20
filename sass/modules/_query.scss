@@ -1,0 +1,113 @@
+@media screen and (min-width: 800px) {
+    .promo {
+       display: flex;
+       justify-content: space-between;
+       display: flex;
+   }
+   
+   .promo-text {
+       width: 30%;
+       margin: 2em 2em 2em 2em;
+   
+   }
+   
+   .small {
+       display: none;
+    }
+   
+   .welcome {
+       display: none;
+   }
+   
+   .promo-text h2 {
+       display: block;
+   }
+   
+   .promo {
+       display: flex;
+   }
+   
+   .product-img {
+       margin-top: 4em;
+       order: 2;
+   }
+   
+   
+   .big {
+       display: block;
+       margin-left: 0;
+       width: 100%;
+       -webkit-transform: scaleX(-1);
+       transform: scaleX(-1);
+   }
+   
+   
+   
+   .app {
+       display: flex;
+   }
+   
+   .app-intro {
+       font-size: 2em;
+   }
+   
+   .phone {
+       width: 100%;
+   }
+   
+   
+   
+   .app-info p  {
+       margin-top: 0;
+   }
+   
+   .number h3 {
+       font-size: 5em;
+   }
+     .benefits {
+           display: flex;
+   }
+       .feature {
+           margin: 1em;
+       }
+   
+       .hamburger {
+           display: none;
+       }
+   .head ul {
+      display: flex;
+      list-style-type: none;
+    }
+   
+   .login {
+       display: flex;
+    }
+   
+   }
+
+
+@media screen and (min-width: 960px) {
+
+
+ .footer-container {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 2em;
+    padding-bottom: 5em;
+    border-top: 1px solid #fff;
+    
+ }
+ 
+
+ 
+
+ input, textarea {
+    width: 30em;
+ }
+
+ .contact {
+    justify-content: space-between;
+ }
+ 
+
+}

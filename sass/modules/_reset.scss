@@ -30,17 +30,17 @@ blockquote, q{
     quotes: none;
 }
 
-blockquote:before, blockquote:after, q:before, q:after {
+blockquote:before, blockquote:after, q:before, q:after{
     content: '';
     content: none;
 }
 
-table{
+table {
     border-collapse: collapse;
     border-spacing: 0;
 }
 
-input{
+input {
     --webkit-appearance: none;
     border-radius: 0;
 }
