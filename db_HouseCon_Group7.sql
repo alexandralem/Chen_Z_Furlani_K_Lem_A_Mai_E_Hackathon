@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: localhost:8889
--- Generation Time: Oct 19, 2022 at 06:38 PM
+-- Generation Time: Oct 20, 2022 at 03:34 PM
 -- Server version: 5.7.34
 -- PHP Version: 7.4.21
 
@@ -109,6 +109,27 @@ INSERT INTO `tbl_data` (`data_id`, `data_number`, `data_info`) VALUES
 -- --------------------------------------------------------
 
 --
+-- Table structure for table `tbl_desc`
+--
+
+CREATE TABLE `tbl_desc` (
+  `desc_id` int(11) NOT NULL,
+  `desc_info` varchar(300) NOT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=utf8;
+
+--
+-- Dumping data for table `tbl_desc`
+--
+
+INSERT INTO `tbl_desc` (`desc_id`, `desc_info`) VALUES
+(1, 'The classic ThermoSecurity watch helps you link with your house at all times and check the status.'),
+(2, 'The new ThermoSecurity watch with added waterproof function can better accompany your life.'),
+(3, 'The computer remotely tracks the home security environment, giving you more peace of mind.'),
+(4, 'Use the mobile phone to check the house status, making the control more convenient and fast.');
+
+-- --------------------------------------------------------
+
+--
 -- Table structure for table `tbl_function`
 --
 
@@ -171,6 +192,27 @@ INSERT INTO `tbl_image` (`image_id`, `image_name`) VALUES
 -- --------------------------------------------------------
 
 --
+-- Table structure for table `tbl_img`
+--
+
+CREATE TABLE `tbl_img` (
+  `img_id` int(11) NOT NULL,
+  `img_jpg` varchar(150) NOT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=utf8;
+
+--
+-- Dumping data for table `tbl_img`
+--
+
+INSERT INTO `tbl_img` (`img_id`, `img_jpg`) VALUES
+(1, 'watch1.jpg'),
+(2, 'watch2.jpg'),
+(3, 'phone.jpg'),
+(4, 'laptop.jpg');
+
+-- --------------------------------------------------------
+
+--
 -- Table structure for table `tbl_intro`
 --
 
@@ -185,6 +227,27 @@ CREATE TABLE `tbl_intro` (
 
 INSERT INTO `tbl_intro` (`intro_id`, `intro_text`) VALUES
 (1, 'Your new go to smart thermostat, ThermoSecurity\r\nhas your family covered. Our new energy saving\r\nTechnology will save you up to 20% on your heating\r\nand air conditioner bills.\r\nUse code: THERMO20 to save 20% on your first\r\npurchase!');
+
+-- --------------------------------------------------------
+
+--
+-- Table structure for table `tbl_price`
+--
+
+CREATE TABLE `tbl_price` (
+  `price_id` int(11) NOT NULL,
+  `price_number` varchar(150) NOT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=utf8;
+
+--
+-- Dumping data for table `tbl_price`
+--
+
+INSERT INTO `tbl_price` (`price_id`, `price_number`) VALUES
+(1, '89$'),
+(2, '71$'),
+(3, '49$'),
+(4, '61$');
 
 -- --------------------------------------------------------
 

@@ -25,5 +25,42 @@
         "description":"Use the mobile phone to check the house status, making the control more convenient and fast.",
         "price": "61$",
         "image":"laptop.png"
+    },
+    "title1": {
+       "title": "ALL NEW ThermoSecurity TM",
+       "desc": "Your new go-to smart thermostat, ThermoSecurity has your family covered. Our new energy saving technology will save you up to 20% on your heating and air conditioner bills.",
+       "promo": "Use code: THERMO20 to save 20% on your first purchase!",
+       "image": "product.png"
+    },
+
+    "app": {
+        "title":"ThermoSecurity allows you easy access to control your homes thermostat and security with our app. Compatible with Apple and Android.",
+        "desc1":"Adjust your temperature with just a tap. ThermoSecurity has you covered, even when you’re away from home.",
+        "desc2":"Stay comfortable knowing ThermoSecurity keeps you protected. Our advanced camera and sensor technology helps detect any Unexpected activity. Check the camera for Live video feed to give yourself peace of mind.",
+        "desc3":"Connect your ThermoSecurity to Bluetooth or Spotify. ThermoSecurity has a built in surround sound, connecting you with the whole home!",
+        "image":""
+    },
+
+    "card1": {
+        "desc": "Provides state-of-the-art technology for security."
+    },
+
+    "card2":{
+        "desc": "Provides state-of-the-art technology for security."
+    },
+
+    "card3":{
+        "desc":"Provides state-of-the-art technology for security."
+    },
+
+    "sats": {
+        "title": "Always Attentive To Provide You With The Best Service",
+        "desc1": "Since its inception, ThermoSecurity has guarded a total of 1,236 homes.",
+        "stat1": "1,236",
+        "desc2": "A total of 45 percent of households in Ontario choose ThermoSecurity.",
+        "stat2": "45%"
     }
+
+
   }
+  
