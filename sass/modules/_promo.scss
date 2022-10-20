@@ -1,0 +1,87 @@
+.promo {
+    display: block;
+    border: 0;
+    padding-right: 0;
+}
+
+.welcome {
+    margin-top: 4em;
+    margin-bottom: 3em;
+    justify-self: start;
+}
+
+
+.small {
+   display: block;
+   width: 100%;
+   float: right
+}
+
+.big {
+    display: none;
+}
+
+.promo-text {
+    margin-top: 0;
+    width: 70%;
+}
+
+.info-text {
+    margin-left: 2em;
+}
+
+
+
+.promo-text h2 {
+    display: none;
+}
+
+.promo-text {
+    margin-bottom: 0;
+}
+
+
+.promo h2, h3 {
+    color: #081F3D;
+}
+
+.promo-text p {
+    color: #01132C;
+}
+
+
+.allnew {
+    margin-bottom: 0;
+    font-weight: 600;
+    color: #01132C;
+}
+
+span {
+    font-weight: bold;
+}
+
+.buy-button {
+    background-color: #88F8BE;
+    margin-left: 2em;
+    border-radius: 10px;
+    display: inline-block;
+}
+
+.buy-button h3 {
+    margin: 0.5em 2em;
+    color: #081F3D;
+    font-weight: 600;
+}
+
+
+.thermo {
+    display: inline-block;
+    text-align: end;
+    font-size: 2em;
+    margin-top: 0;
+    margin-left: 1em;
+    font-weight: 600;
+    color: #01132C;
+}
+
+

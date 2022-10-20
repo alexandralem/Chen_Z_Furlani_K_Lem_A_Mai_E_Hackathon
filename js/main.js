@@ -30,8 +30,8 @@ import { getData } from "./modules/dataMiner.js";
     
         function showInfo() {
             name.textContent = faveData[this.id].name;
-            desc.textContent = faveData[this.id].desc;
-            price.textContent = faveData[this.id].type;
+            desc.textContent = faveData[this.id].description;
+            price.textContent = faveData[this.id].price;
         }
 
         getData(`./data.json`, buildProduct);

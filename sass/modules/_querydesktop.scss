@@ -1,0 +1,26 @@
+@media screen and (min-width: 960px) {
+
+
+ .footer-container {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 2em;
+    padding-bottom: 5em;
+    border-top: 1px solid #fff;
+    
+ }
+ 
+
+ 
+
+ input, textarea {
+    width: 30em;
+ }
+
+ .contact {
+    justify-content: space-between;
+ }
+ 
+
+}
+

@@ -1,0 +1,50 @@
+header {
+    background-color: #fff;
+}
+
+.flex {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+ .head .flex {
+    justify-content: space-between;
+
+}
+
+.logo img {
+    padding: 1em;
+    width: 50%;
+ }
+
+ nav li a:hover {
+    color: #88F8BE;
+ }
+
+.login a:hover {
+    color: #88F8BE;
+}
+
+.login {
+    display: none;
+}
+
+.head a {
+    color: #778291;
+    padding: 10px;
+    margin: 0 5px;
+    text-decoration: none;
+}
+
+li.active a {
+    color: #88F8BE;
+}
+
+.logo img {
+    width: 15%;
+}
+
+header {
+    border-bottom: 1px solid #F2F2F2;
+}

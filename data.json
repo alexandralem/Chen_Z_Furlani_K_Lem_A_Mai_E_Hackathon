@@ -53,14 +53,12 @@
         "desc":"Provides state-of-the-art technology for security."
     },
 
-    "sats": {
+    "stats": {
         "title": "Always Attentive To Provide You With The Best Service",
         "desc1": "Since its inception, ThermoSecurity has guarded a total of 1,236 homes.",
         "stat1": "1,236",
         "desc2": "A total of 45 percent of households in Ontario choose ThermoSecurity.",
         "stat2": "45%"
     }
-
-
   }
   

@@ -1,0 +1,38 @@
+.app {
+    margin-top: 3em;
+}
+
+.phone {
+    margin: auto;
+    display: flex;
+}
+
+.phone img {
+    width: 100%;
+    margin: 0;
+    display: block;
+}
+
+.app-info {
+    justify-self: center;
+    width: 80%;
+    margin: 4em auto 0;
+}
+
+.app-intro {
+    text-align: center;
+    font-size: 1.2em;
+    line-height: 1.25em;
+}
+
+.app-intro p {
+    margin: 4em 3em 2em 3em;
+}
+
+.app-info p {
+    margin-bottom: 3em;
+}
+
+.app-info p:hover {
+    font-weight: 600;
+}
