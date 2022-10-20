@@ -238,7 +238,6 @@ span {
 }
 
 .app-info p:hover {
-    scale: 1.05;
     font-weight: 600;
 }
 
@@ -535,6 +534,7 @@ input, textarea {
 }
 
 
+
 .app {
     display: flex;
 }
@@ -570,4 +570,6 @@ input, textarea {
 }
 
 @import "./modules/_gallery.scss";
+
+}
 
