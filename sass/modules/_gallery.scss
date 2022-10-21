@@ -1,0 +1,119 @@
+.slide
+{
+    display: none;
+    justify-content: center;
+    align-items: center;
+
+    margin-top: 140px;
+}
+
+.slide img
+{
+    vertical-align: middle;
+    width: 100%;
+}
+
+/* working on cotainer of the image gallery*/
+
+.Container_gallery
+{
+    max-width: 800px;
+    position: relative;
+    margin: auto;
+    justify-content: center;
+}
+
+/* next & previous buttons */
+.before, .next
+{
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    padding: 16px;
+    margin-top: -22px;
+    color: #041f50;
+    font-weight: bold;
+    font-size: 35px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+}
+
+/* adjusting right side button*/
+.next
+{
+    right: 0;
+    border-radius: 3px 0 0 3px;
+}
+
+/* hover and bg the buttons */
+.before:hover, .next:hover
+{
+    background-color: #5df0b8;
+}
+
+/* cap design */
+.caption
+{
+    color: #022c53;
+    
+    padding: 2px 1px;
+    text-align: center;
+    padding-bottom: 10px;
+}
+
+.caption p
+{
+    font-size: 30px;
+    font-weight: 600;
+    
+}
+
+
+/* start the dot */
+.dot_box
+{
+    text-align: center;
+    margin-bottom: 100px;
+}
+
+.dot
+{
+    cursor: pointer;
+    height: 15px;
+    width: 15px;
+    margin: 20px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-coloe 0.6s ease; 
+}
+
+
+/* dot hover and animation */
+.active, .dot:hover
+{
+    background-color: #31fab7;
+}
+
+.anime
+{
+    animation-name: fade;
+    animation-duration: 1.5s;
+}
+
+@keyframes fade 
+{
+    from
+    {
+        opacity: .4;
+    }
+
+    to
+    {
+        opacity: 1;
+    }
+}
+
+/* responsive */
