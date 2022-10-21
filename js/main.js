@@ -42,6 +42,6 @@ import { getData } from "./modules/dataMiner.js";
 
         
         dots.forEach(dot => {
-            dot.addEventListener("click", getId, changeColour)});
+            dot.addEventListener("click", getId)});
     
 })();
