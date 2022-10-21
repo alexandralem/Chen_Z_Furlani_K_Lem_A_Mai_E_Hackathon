@@ -41,16 +41,19 @@
         "image":""
     },
 
-    "card1": {
-        "desc": "Provides state-of-the-art technology for security."
+    "fa-users": {
+        "desc": "Provides state-of-the-art technology for security.",
+        "image": "users-solid.svg"
     },
 
-    "card2":{
-        "desc": "Provides state-of-the-art technology for security."
+    "fa-gear":{
+        "desc": "Provides state-of-the-art technology for security.",
+        "image": "gear-solid.svg"
     },
 
-    "card3":{
-        "desc":"Provides state-of-the-art technology for security."
+    "fa-eye":{
+        "desc":"Provides state-of-the-art technology for security.",
+        "image": "eye-solid.svg"
     },
 
     "stats": {
