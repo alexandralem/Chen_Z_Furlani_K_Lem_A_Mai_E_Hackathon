@@ -81,3 +81,38 @@ input, textarea {
     margin-top: 2em;
     width: fit-content;
  }
+
+ @media only screen and (max-width: 600px) {
+
+    .contact
+    {
+        text-align: center;
+        justify-content: center;
+        color: #ffffff;
+    }
+
+    .infoBox
+    {
+        margin-top: 20px;
+        font-size: 12px;
+    }
+    
+
+    .contact-info
+    {
+        justify-content: center;
+        font-style: italic;
+    }
+
+    .form-button
+    {
+        align-items: center;
+    }
+
+    .form-fitting input {
+        border-bottom: 1px solid #050505;
+     }
+
+
+   }
+   
