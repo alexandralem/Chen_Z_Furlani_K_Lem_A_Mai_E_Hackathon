@@ -1,0 +1,16 @@
+{
+    "fa-users": {
+        "desc": "Provides state-of-the-art technology for security.",
+        "image": "&#xf06e;"
+    },
+
+    "fa-gear":{
+        "desc": "Provides state-of-the-art technology for security.",
+        "image": "fa-gear"
+    },
+
+    "fa-eye":{
+        "desc":"Provides state-of-the-art technology for security.",
+        "image": "fa-eye"
+    }
+}

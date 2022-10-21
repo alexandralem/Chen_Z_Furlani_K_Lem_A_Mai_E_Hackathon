@@ -14,6 +14,7 @@ import { getData } from "./modules/dataMiner.js";
         desc = document.querySelector(".description"),
         price = document.querySelector(".price"),
         dots = document.querySelectorAll('.dot'),
+        icons = document.querySelectorAll(".icon"),
         userChoice,
         faveData;
 
@@ -32,6 +33,7 @@ import { getData } from "./modules/dataMiner.js";
             
             showInfo();
             
+            
         }
     
         function showInfo() {
@@ -40,7 +42,26 @@ import { getData } from "./modules/dataMiner.js";
             price.textContent = faveData[userChoice].price;
         }
 
+    
+        
         dots.forEach(dot => {
             dot.addEventListener("click", getId)});
+
+
+        icons.forEach(icon => {
+
+
+        
+        let el = document.querySelectorAll('.icon img')
+        getData("./data.json", showIcon);
+
+        function showIcon(iconData) {
+            el.src = `images/${iconData[icon.id].image}`;
+     
+            
+        }
+        })
+        
+        
     
 })();
