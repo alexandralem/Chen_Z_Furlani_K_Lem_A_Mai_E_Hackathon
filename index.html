@@ -153,39 +153,29 @@
         <!-- reference link: https://www.w3schools.com/howto/tryit.asp?filename=tryhow_js_slideshow -->
         <!-- start with the four image slider-->
         <!-- img 1 -->
-        <div class="anime slide">
-            <img src="images/watch1.png" alt="the watch feature 1 display">
-            <div class="caption"><p>Watch type 1</p></div>
+        <div class="slide">
+            <img class="pic" src="" alt="product display">
+        </div>
+        <div class="pic-cont">
+            
         </div>
     
-        <!-- img 2 -->
-        <div class="anime slide">
-            <img src="images/watch2.png" alt="the watch feature 2 display">
-            <div class="caption"><p>Watch type 2</p></div>
-        </div>
-    
-        <!-- img 3 -->
-        <div class="anime slide">
-            <img src="images/phone.png" alt="the phone feature display">
-            <div class="caption"><p>phone</p></div>
-        </div>
-        
-        <!-- img 4 -->
-        <div class="anime slide">
-            <img src="images/laptop.png" alt="the laptop feature display">
-            <div class="caption"><p>laptop</p></div>
-        </div>
-    
-        <!-- slider arrows -->
-        <a class="before" onclick="addSlide(-1)"> &lt; </a>
-        <a class="next" onclick="addSlide(1)"> &gt; </a>
+        <!-- slider arrows
+        <a class="before" onclick="addSlide(-1)">  </a>
+        <a class="next" onclick="addSlide(1)"> > </a> -->
     
         <!-- image dot -->
         <div class="dot_box">
-            <span class="dot" onclick="presentS(1)"></span>
-            <span class="dot" onclick="presentS(2)"></span>
-            <span class="dot" onclick="presentS(3)"></span>
-            <span class="dot" onclick="presentS(4)"></span>
+            <span class="dot" id="Item1"></span>
+            <span class="dot" id="Item2"></span>
+            <span class="dot" id="Item3"></span>
+            <span class="dot" id="Item4"></span>
+        </div>
+
+        <div>
+            <h3 class="name"></h3>
+            <h3 class="price"></h3>
+            <p class="description"></p>
         </div>
     </div>
 
@@ -268,6 +258,6 @@
 </section>
 </footer>
 <script src="js/main.js" type="module"></script>
-<script src="js/gallery.js"></script>
+
 </body>
 </html>

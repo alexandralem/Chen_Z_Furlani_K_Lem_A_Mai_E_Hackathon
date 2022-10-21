@@ -9,31 +9,39 @@ import { getData } from "./modules/dataMiner.js";
     })
 
 
-    let cardholders = document.querySelectorAll(".card"),
+    let pic = document.querySelector(".pic"),
         name = document.querySelector(".name"),
         desc = document.querySelector(".description"),
         price = document.querySelector(".price"),
+        dots = document.querySelectorAll('.dot'),
+        userChoice,
         faveData;
+
+        function getId (event) {
+            getData("./data.json", buildProduct);
+            
+            console.log(event.target.id); 
+            userChoice = event.target.id;
+        }
 
         function buildProduct(data) {
         
             faveData = data;
           
-            cardholders.forEach(cardholder => {
-                console.log(cardholder.id);
-                cardholder.firstElementChild.src = `images/${data[cardholder.id].image}`;
-                cardholder.addEventListener('click', showInfo);
-            })
-    
+            pic.src = `images/${data[userChoice].image}`;
+            
+            showInfo();
             
         }
     
         function showInfo() {
-            name.textContent = faveData[this.id].name;
-            desc.textContent = faveData[this.id].description;
-            price.textContent = faveData[this.id].price;
+            name.textContent = faveData[userChoice].name;
+            desc.textContent = faveData[userChoice].description;
+            price.textContent = faveData[userChoice].price;
         }
 
-        getData(`./data.json`, buildProduct);
+        
+        dots.forEach(dot => {
+            dot.addEventListener("click", getId, changeColour)});
     
 })();
