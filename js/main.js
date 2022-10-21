@@ -40,8 +40,7 @@ import { getData } from "./modules/dataMiner.js";
             price.textContent = faveData[userChoice].price;
         }
 
-        
         dots.forEach(dot => {
-            dot.addEventListener("click", getId, changeColour)});
+            dot.addEventListener("click", getId)});
     
 })();
