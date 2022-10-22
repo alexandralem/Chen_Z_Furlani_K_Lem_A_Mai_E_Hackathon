@@ -16,6 +16,7 @@ import { getData } from "./modules/dataMiner.js";
         dots = document.querySelectorAll('.dot'),
         icons = document.querySelectorAll(".icon"),
         userChoice,
+        things,
         faveData;
 
         function getId (event) {
@@ -32,7 +33,9 @@ import { getData } from "./modules/dataMiner.js";
             pic.src = `images/${data[userChoice].image}`;
             
             showInfo();
-            
+
+           things = Object.keys(data);
+           console.log(data);
             
         }
     
@@ -48,20 +51,14 @@ import { getData } from "./modules/dataMiner.js";
             dot.addEventListener("click", getId)});
 
 
-        icons.forEach(icon => {
+         icons.forEach(icon => {
+                console.log(icon.id);
+                
 
+            })
 
         
-        let el = document.querySelectorAll('.icon img')
-        getData("./data.json", showIcon);
-
-        function showIcon(iconData) {
-            el.src = `images/${iconData[icon.id].image}`;
-     
-            
-        }
-        })
+       
         
-        
-    
+      
 })();
