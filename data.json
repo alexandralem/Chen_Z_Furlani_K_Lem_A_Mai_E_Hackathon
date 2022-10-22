@@ -26,8 +26,9 @@
         "price": "61$",
         "image":"laptop.png"
     },
-    "title1": {
-       "title": "ALL NEW ThermoSecurity TM",
+    "title": {
+       "title1": "ALL NEW",
+       "title2": "ThermoSecurity TM",
        "desc": "Your new go-to smart thermostat, ThermoSecurity has your family covered. Our new energy saving technology will save you up to 20% on your heating and air conditioner bills.",
        "promo": "Use code: THERMO20 to save 20% on your first purchase!",
        "image": "product.png"
